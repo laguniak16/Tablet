@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>opcja5</class>
+ <widget class="QDialog" name="opcja5">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>461</width>
+    <height>73</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QComboBox" name="box">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>461</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="PushButton">
+   <property name="geometry">
+    <rect>
+     <x>184</x>
+     <y>40</y>
+     <width>91</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Usun</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>box</sender>
+   <signal>currentIndexChanged(int)</signal>
+   <receiver>opcja5</receiver>
+   <slot>dousuniecia()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>230</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>230</x>
+     <y>36</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>opcja5</receiver>
+   <slot>usun()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>229</x>
+     <y>51</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>230</x>
+     <y>36</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>dousuniecia()</slot>
+  <slot>usun()</slot>
+ </slots>
+</ui>

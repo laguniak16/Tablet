@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>opcja4</class>
+ <widget class="QDialog" name="opcja4">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>520</width>
+    <height>195</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QListWidget" name="lista">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>301</width>
+     <height>192</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="obrazek">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>0</y>
+     <width>211</width>
+     <height>191</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>lista</sender>
+   <signal>clicked(QModelIndex)</signal>
+   <receiver>opcja4</receiver>
+   <slot>wyswietlobraz()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>127</x>
+     <y>155</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>259</x>
+     <y>129</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>wyswietl()</slot>
+  <slot>klik()</slot>
+  <slot>wyswietlobraz()</slot>
+ </slots>
+</ui>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>tablet3Class</class>
+ <widget class="QWidget" name="tablet3Class">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>217</width>
+    <height>232</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>160</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="1">
+     <widget class="QPushButton" name="opcja1">
+      <property name="text">
+       <string>Dodaj obiekt</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QPushButton" name="opcja2">
+      <property name="text">
+       <string>Zapisz</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QPushButton" name="opcja3">
+      <property name="text">
+       <string>Wczytaj</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QPushButton" name="opcja4">
+      <property name="text">
+       <string>Wyswietl</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QPushButton" name="opcja5">
+      <property name="text">
+       <string>Usun</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QPushButton" name="opcja6">
+      <property name="text">
+       <string>Edytuj</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>2</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>3</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>4</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>5</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>6</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="wyjscie">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>200</y>
+     <width>146</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Wyjscie</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>opcja1</sender>
+   <signal>clicked()</signal>
+   <receiver>tablet3Class</receiver>
+   <slot>funkcja1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>67</x>
+     <y>31</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>386</x>
+     <y>33</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>wyjscie</sender>
+   <signal>clicked()</signal>
+   <receiver>tablet3Class</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>337</x>
+     <y>231</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>291</x>
+     <y>127</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>opcja4</sender>
+   <signal>clicked()</signal>
+   <receiver>tablet3Class</receiver>
+   <slot>funkcja4()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>67</x>
+     <y>151</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>193</x>
+     <y>127</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>opcja5</sender>
+   <signal>clicked()</signal>
+   <receiver>tablet3Class</receiver>
+   <slot>funkcja5()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>67</x>
+     <y>191</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>193</x>
+     <y>127</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>opcja2</sender>
+   <signal>clicked()</signal>
+   <receiver>tablet3Class</receiver>
+   <slot>funkcja2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>67</x>
+     <y>71</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>193</x>
+     <y>104</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>opcja3</sender>
+   <signal>clicked()</signal>
+   <receiver>tablet3Class</receiver>
+   <slot>funkcja3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>67</x>
+     <y>111</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>193</x>
+     <y>104</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>opcja6</sender>
+   <signal>clicked()</signal>
+   <receiver>tablet3Class</receiver>
+   <slot>funkcja6()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>67</x>
+     <y>221</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>193</x>
+     <y>122</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>funkcja1()</slot>
+  <slot>funkcja4()</slot>
+  <slot>funkcja5()</slot>
+  <slot>funkcja2()</slot>
+  <slot>funkcja3()</slot>
+  <slot>funkcja6()</slot>
+ </slots>
+</ui>
